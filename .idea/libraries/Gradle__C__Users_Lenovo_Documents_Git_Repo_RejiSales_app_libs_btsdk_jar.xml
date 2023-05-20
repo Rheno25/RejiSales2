@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/Lenovo/Documents/Git Repo/RejiSales/app/libs/btsdk.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/btsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/app/libs/btsdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/btsdk.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/libs" />
+      <root url="jar://$PROJECT_DIR$/app/libs/btsdk.jar!/" />
+    </SOURCES>
+  </library>
+</component>
