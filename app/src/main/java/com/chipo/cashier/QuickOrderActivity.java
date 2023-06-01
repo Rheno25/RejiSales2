@@ -246,7 +246,7 @@ public class QuickOrderActivity extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
-		 String address = Shared.read(Constants.KEY_SETTING_MAC_ADDRESS,"0F:03:E0:C2:42:86");
+		 String address = Shared.read(Constants.KEY_SETTING_MAC_ADDRESS,"00:1B:35:13:5E:3E");
 		 if(!address.equals(""))
 		 {
 			 con_dev = mService.getDevByMac(address);

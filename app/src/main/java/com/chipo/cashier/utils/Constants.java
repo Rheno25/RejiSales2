@@ -23,11 +23,11 @@ public class Constants {
 
 	public static String VAL_DEFAULT_CURRENCY_SYMBOL = "Rp. ";
 	
-	public static String VAL_DEFAULT_STORE_NAME = "Nasi Uduk Mpo Encuk";
-	public static String VAL_DEFAULT_STORE_ADDRESS = "JL. GANDUL PLN GANDUL,CINERE \nDEPOK 16512";
-	public static String VAL_DEFAULT_STORE_PHONE = "083870171652";
+	public static String VAL_DEFAULT_STORE_NAME = "Group 7 Restaurant";
+	public static String VAL_DEFAULT_STORE_ADDRESS = "Jl. Soekarno Hatta No.9, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141";
+	public static String VAL_DEFAULT_STORE_PHONE = "083895981401";
 	public static String VAL_DEFAULT_TAX = "10";
-	public static String VAL_DEFAULT_WEB = "WWW.TRIONOPUTRA.COM";
+	public static String VAL_DEFAULT_WEB = "polinema.ac.id";
 	public static String VAL_DEFAULT_THANKS = "TERIMA KASIH TELAH BEKUNJUNG\nINFO LENGKAP\n" + VAL_DEFAULT_WEB;
 	
 	

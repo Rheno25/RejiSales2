@@ -31,18 +31,13 @@ public class MainActivity extends Activity implements OnClickListener {
 		findViewById(R.id.btnMasterData).setOnClickListener(this);
 		findViewById(R.id.btnLogout).setOnClickListener(this);
 		findViewById(R.id.btnQuickOrder).setOnClickListener(this);
-		findViewById(R.id.btnSetting).setOnClickListener(this);
 		
 		TextView t1 = (TextView)findViewById(R.id.textView1);
 		TextView t2 = (TextView)findViewById(R.id.textView2);
-		TextView t3 = (TextView)findViewById(R.id.textView3);
-		TextView t4 = (TextView)findViewById(R.id.textView4);
 		TextView t5 = (TextView)findViewById(R.id.textView5);
 		
 		t1.setTypeface(Shared.openSansLight);
 		t2.setTypeface(Shared.openSansLight);
-		t3.setTypeface(Shared.openSansLight);
-		t4.setTypeface(Shared.openSansLight);
 		t5.setTypeface(Shared.openSansLight);
 
 	}
@@ -58,9 +53,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.btnQuickOrder:
 			intent = new Intent(MainActivity.this, QuickOrderActivity.class);
-			break;
-		case R.id.btnSetting:
-			intent = new Intent(MainActivity.this,SettingListActivity.class);
 			break;
 		case R.id.btnLogout:
 			 logout();

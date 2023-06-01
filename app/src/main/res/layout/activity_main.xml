@@ -133,46 +133,8 @@
 				        	   android:src="@drawable/report"
 				        	  android:scaleType="centerCrop"
 				        	   />
-				    		
-				    		<RelativeLayout
-					            android:id="@+id/btnReport"
-					            android:layout_width="180dp"
-					            android:layout_height="260dp"
-					            android:clickable="true"
-					            android:layout_centerInParent="true"
-					            android:background="@drawable/bg_btn_menu">
-					
-					            <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentTop="true"
-					                android:layout_marginTop="35dp"
-					                android:background="@color/item" />
-					            
-					            
-					             <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentBottom="true"
-					                android:layout_marginBottom="35dp"
-					                android:background="@color/item" />
-					
-					             <TextView
-					                 android:id="@+id/textView3"
-					                 android:layout_width="wrap_content"
-					                 android:layout_height="wrap_content"
-					                 android:layout_centerHorizontal="true"
-					                 android:layout_centerVertical="true"
-					                 android:gravity="center"
-					                 android:text="@string/report"
-					                 android:textColor="@color/text_black"
-					                 android:textSize="30dp" />
-					
-					      	</RelativeLayout>
-					      	
-			      	</RelativeLayout>
+
+					</RelativeLayout>
 		    
 		    </LinearLayout>
 		      <LinearLayout
@@ -193,46 +155,8 @@
 				        	   android:src="@drawable/setting"
 				        	  android:scaleType="centerCrop"
 				        	   />
-				    		
-				    		<RelativeLayout
-					            android:id="@+id/btnSetting"
-					            android:layout_width="180dp"
-					            android:layout_height="260dp"
-					            android:clickable="true"
-					            android:layout_centerInParent="true"
-					            android:background="@drawable/bg_btn_menu">
-					
-					            <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentTop="true"
-					                android:layout_marginTop="35dp"
-					                android:background="@color/item" />
-					            
-					            
-					             <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentBottom="true"
-					                android:layout_marginBottom="35dp"
-					                android:background="@color/item" />
-					
-					             <TextView
-					                 android:id="@+id/textView4"
-					                 android:layout_width="wrap_content"
-					                 android:layout_height="wrap_content"
-					                 android:layout_centerHorizontal="true"
-					                 android:layout_centerVertical="true"
-					                 android:gravity="center"
-					                 android:text="@string/setting"
-					                 android:textColor="@color/text_black"
-					                 android:textSize="30dp" />
-					
-					      	</RelativeLayout>
-					      	
-			      	</RelativeLayout>
+
+				  </RelativeLayout>
 			      <RelativeLayout
 	        	    	android:layout_weight="1"
 	        	    	 android:layout_width="0dp"
@@ -244,45 +168,45 @@
 				        	   android:src="@drawable/logout"
 				        	  android:scaleType="centerCrop"
 				        	   />
-				    		
-				    		<RelativeLayout
-					            android:id="@+id/btnLogout"
-					            android:layout_width="180dp"
-					            android:layout_height="260dp"
-					            android:clickable="true"
-					            android:layout_centerInParent="true"
-					            android:background="@drawable/bg_btn_menu">
-					
-					            <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentTop="true"
-					                android:layout_marginTop="35dp"
-					                android:background="@color/item" />
-					            
-					            
-					             <View
-					                android:layout_width="40dp"
-					                android:layout_height="1dp"
-					               android:layout_centerHorizontal="true"
-					                android:layout_alignParentBottom="true"
-					                android:layout_marginBottom="35dp"
-					                android:background="@color/item" />
-					
-					             <TextView
-					                 android:id="@+id/textView5"
-					                 android:layout_width="wrap_content"
-					                 android:layout_height="wrap_content"
-					                 android:layout_centerHorizontal="true"
-					                 android:layout_centerVertical="true"
-					                 android:gravity="center"
-					                 android:text="@string/logout"
-					                 android:textColor="@color/text_black"
-					                 android:textSize="30dp" />
-					
-					      	</RelativeLayout>
-					      	
+
+					  <RelativeLayout
+						  android:id="@+id/btnLogout"
+						  android:layout_width="180dp"
+						  android:layout_height="260dp"
+						  android:layout_centerInParent="true"
+						  android:background="@drawable/bg_btn_menu"
+						  android:clickable="true">
+
+						  <View
+							  android:layout_width="40dp"
+							  android:layout_height="1dp"
+							  android:layout_alignParentTop="true"
+							  android:layout_centerHorizontal="true"
+							  android:layout_marginTop="35dp"
+							  android:background="@color/item" />
+
+
+						  <View
+							  android:layout_width="40dp"
+							  android:layout_height="1dp"
+							  android:layout_alignParentBottom="true"
+							  android:layout_centerHorizontal="true"
+							  android:layout_marginBottom="35dp"
+							  android:background="@color/item" />
+
+						  <TextView
+							  android:id="@+id/textView5"
+							  android:layout_width="wrap_content"
+							  android:layout_height="wrap_content"
+							  android:layout_centerHorizontal="true"
+							  android:layout_centerVertical="true"
+							  android:gravity="center"
+							  android:text="@string/logout"
+							  android:textColor="@color/text_black"
+							  android:textSize="30dp" />
+
+					  </RelativeLayout>
+
 			      	</RelativeLayout>
 			    
 		    </LinearLayout>
